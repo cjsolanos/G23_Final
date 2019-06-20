@@ -74,6 +74,35 @@ header {
   color: #660066
 }
 
+.carousel-indicators {
+  top: 0px;
+
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+  bottom: 0px;
+}
+
+.blog .carousel-indicators li {
+    background: #373A3C;
+    border-radius: 100%;
+    width: 20px;
+    height: 1px;
+}
+
+.blog .carousel-indicators .active {
+background: #373A3C;
+}
+
+
+
 .mis_trabajos {
 
   background-color: var(--morado);
