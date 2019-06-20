@@ -121,6 +121,10 @@ article {
   padding: 10px;
 }
 
+#Contacto h2 {
+  font-family: 'Oswald', bold;
+}
+
 footer {
 
     font-family: 'Oswald', bold;
