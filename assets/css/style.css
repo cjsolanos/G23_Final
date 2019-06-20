@@ -1,0 +1,101 @@
+:root {
+  --black:#000;
+  --white: #fff;
+  --morado: #660066;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  color: #373A3C;
+}
+
+.logomarca {
+  font-family: 'Oswald', bold;
+}
+
+
+
+.navbar {
+  background-color: var(--morado);
+}
+
+header {
+  background-image: url('../img/bg_hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center ;
+  padding-bottom: 10rem;
+  font-family: 'Oswald', extra-light;
+  height: 737px;
+  position: relative;
+}
+
+.titulares {
+
+    text-align: center;
+    width:100%;
+    position:absolute;
+    bottom:0;
+
+}
+
+.titulo_oculto {
+  font-family: 'Open Sans', semi-bold;
+  line-height: 2;
+
+}
+
+.texto_oculto {
+  font-family: 'Open Sans', regular;
+  line-height: 3;
+}
+
+#oculto p {
+  text-align: center;
+  width: 10px;
+}
+
+.nuborder  {
+    border-width: 2.5px !important;
+}
+
+#Experiencia h2 {
+  font-family: 'Oswald', bold;
+}
+#Experiencia h3 {
+  font-family: 'Oswald', semi-bold;
+}
+#Experiencia h3 {
+  'Open Sans', light;
+}
+.iconos_exp {
+  color: #660066
+}
+
+.mis_trabajos {
+
+  background-color: var(--morado);
+  color: var(--white);
+}
+#Trabajos h2 {
+  font-family: 'Oswald', bold;
+}
+
+.articulaje {
+  text-align: left;
+  color: #373A3C;
+  border-style: hidden;
+}
+article {
+  padding: 10px;
+}
+
+footer {
+
+    font-family: 'Oswald', bold;
+    height: 221px;
+    background-color: var(--morado);
+    color: var(--white);
+}
