@@ -99,3 +99,6 @@ footer {
     background-color: var(--morado);
     color: var(--white);
 }
+.link {
+  color: var(--white);
+}
