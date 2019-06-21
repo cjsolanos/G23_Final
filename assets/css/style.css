@@ -135,3 +135,6 @@ footer {
 .link {
   color: var(--white);
 }
+.icono_modal {
+  color: blue;
+}
